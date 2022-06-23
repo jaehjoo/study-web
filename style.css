@@ -2,25 +2,24 @@ body {
   margin: 0px;
 }
 a {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid black;
   margin: 0px;
   padding: 20px;
 }
-#active {
-  color: blue;
-}
-}
 #grid ol {
-  border-right: 1px solid gray;
+  border-right: 2px solid black;
   width: 100px;
   margin: 0px;
   padding: 20px
+}
+#active {
+  color: blue;
 }
 #grid {
   display: grid;
